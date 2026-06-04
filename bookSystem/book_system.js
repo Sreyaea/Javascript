@@ -27,7 +27,7 @@ function showbooks(){
     <p><strong>Author Name:</strong>${book.authorName}</p>
     <p><strong>Book description:</strong>${book.bookDescription}</p>
     <p><strong>No. of Pages:</strong>${book.pagesNumber}</p>
-    <button onclick="editbook({index})">Edit</button>`
+    <button onclick="editbook(${index})">Edit</button>`
     );
     document.getElementById('books').innerHTML=booksDiv.join('');
 }
